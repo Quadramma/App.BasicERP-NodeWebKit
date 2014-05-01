@@ -1,0 +1,3 @@
+GIT COMMANDS
+
+git rm --cached -r dir

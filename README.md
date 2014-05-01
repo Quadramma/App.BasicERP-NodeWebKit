@@ -1,4 +1,25 @@
-BasicERP-OfflineApp-HTML5-AngularNodejs
-=======================================
+BasicERP-OfflineApp-HTML5
+========================
 
-Basic ERP is a Management system for pymes. Build on Nodejs, AngularJS.
+##BasicERP is a management app for companies.
+
+
+- Clients
+- Suppliers
+- ~~Current Account~~
+- ~~Treasury~~
+
+
+
+######FEATURES
+
+- CORS Support	
+- Flat file database
+
+######REQUERIMENTS
+node modules
+npm install express
+npm install flat-file-db
+npm install -g nodemon
+
+
