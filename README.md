@@ -16,7 +16,7 @@ BasicERP-OfflineApp-HTML5
 - CORS Support	
 - Flat file database
 
-######REQUERIMENTS
+######REQUERIMENTSd
 node modules
 npm install express
 npm install flat-file-db

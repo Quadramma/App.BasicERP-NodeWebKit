@@ -1,0 +1,21 @@
+<div class="container">
+	<div class="row" id="list">
+		<div class="col-sm-4 col-sm-offset-4">
+			<a ui-sref="client.create" >
+				Nuevo
+			</a>
+		</div>
+
+		<div class="col-sm-4 col-sm-offset-4">
+			<div ng-repeat="item in list" >
+				<label>
+					<input type="checkbox" ng-click="delete(item)"> 
+					<a  ng-click="select(item)" ui-sref="client.edit">
+						{{ item.name }}
+						{{ item.description }}
+					</a>
+				</label>
+			</div>
+		</div>
+	</div>
+</div>

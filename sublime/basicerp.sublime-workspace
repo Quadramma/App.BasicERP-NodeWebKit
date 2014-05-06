@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"user",
+				"username"
+			],
+			[
+				"WorkIt",
+				"WorkItemService"
+			],
+			[
+				"app",
+				"appsingleton"
+			],
+			[
+				"http",
+				"httpProvider"
+			],
+			[
 				"view",
 				"viewContainer"
 			],
@@ -195,9 +211,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 173.0,
 		"selected_items":
 		[
+			[
+				"set java",
+				"Set Syntax: JavaScript"
+			],
 			[
 				"set",
 				"Set Syntax: HTML"
@@ -239,7 +259,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 512.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -260,6 +280,48 @@
 	},
 	"file_history":
 	[
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/background.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/js/controllers/loginController.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/app/routes/userRoutes.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/bower.json",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/js/services/loginService.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/views/login.html",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/views/home.html",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/js/config/appRoutes.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/js/controllers/homeController.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/manifest.json",
+		"/D/GoogleDrive/sistemas/TidyNodes/background.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/index.html",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/js/models/appsingleton.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/js/controllers/appController.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/js/config/app.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/js/services/workItemService.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/server.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/js/controllers/workItemsController.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/js/controllers/mainController.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/views/workitems.html",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/js/controllers/suppliersController.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/js/controllers/clientsController.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/app/routes/workItemRoutes.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/pages/home.html",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/config/app.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/models/appsingleton.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/controllers/homeController.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/pages/suppliers.html",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/controllers/clientsController.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/controllers/suppliersController.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/controllers/mainController.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/pages/clients.html",
+		"/D/GoogleDrive/quadramma/ga/pagina/_admin/jlm/jlm.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/core.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/public/app.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/app/models/cliente.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/app/routes/clienteRoutes.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/app/models/flatfiledb.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/app/routes/generalRoutes.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/app/routes/proveedorRoutes.js",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/.bowerrc",
+		"/D/GoogleDrive/git/BasicERP-OfflineApp-HTML5/README.md",
 		"/D/GoogleDrive/git/SinglePageAppNodeAngular/README.md",
 		"/D/GoogleDrive/git/SinglePageAppNodeAngular/public/index.html",
 		"/D/GoogleDrive/git/SinglePageAppNodeAngular/public/core.js",
@@ -306,7 +368,6 @@
 		"/C/Users/Javier/AppData/Local/Temp/fz3temp-3/.htaccess",
 		"/C/Users/Javier/AppData/Local/Temp/fz3temp-3/tn_perfil.php",
 		"/D/GoogleDrive/sistemas/TidyNodes/api/index.php",
-		"/D/GoogleDrive/sistemas/TidyNodes/background.js",
 		"/D/GoogleDrive/sistemas/TidyNodes/manifest.json",
 		"/C/Users/Javier/AppData/Local/Temp/fz3temp-1/api 2.php",
 		"/C/Users/Javier/AppData/Local/Temp/fz3temp-1/db 2.php",
@@ -346,52 +407,11 @@
 		"/C/Users/Javier/AppData/Local/Temp/fz3temp-6/index.php",
 		"/C/Users/Javier/AppData/Local/Temp/fz3temp-6/myscript.js",
 		"/C/Users/Javier/AppData/Local/Temp/fz3temp-6/dynamicheaderfooter.js",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-6/config.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-6/dbtest 2.php",
-		"/D/temp/gaIndexPHP",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-6/tmpl_body_ga_login.html",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-6/index 3.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-6/index 2.php",
-		"/D/portable/alphaIP.txt",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-6/categoryCRUD.php",
-		"/D/temp/dbtest.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-5/home.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-5/ga.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-5/index.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-5/categoryCRUD.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-5/productCRUD.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-5/jlm.js",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-5/gaModule.js",
-		"/D/temp/categoryCRUD.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-2/jlm.js",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-2/index.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-2/ga.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-2/index.bk.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-2/index.html",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-2/gaModule.js",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-5/tmpl_body_ga_main.html",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-2/addProduct.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-2/tmpl_body_ga_main.html",
-		"/D/temp/addProduct.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-2/home.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-2/delProduct.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-2/multiupload.js",
-		"/D/temp/delProduct.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-4/index.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-4/jlm 2.js",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-4/gaModule.js",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-4/home.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-4/login.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-4/adminController.js",
-		"/D/temp/home.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-4/tmpl_header_ga.html",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-4/tmpl_body_ga_main.html",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-4/index 2.php",
-		"/C/Users/Javier/AppData/Local/Temp/fz3temp-4/ga.php"
+		"/C/Users/Javier/AppData/Local/Temp/fz3temp-6/config.php"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -402,9 +422,13 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"app",
+			"proveedor",
+			"cliente",
+			"Cliente",
 			"back",
 			"init",
 			"QM_FS",
@@ -518,6 +542,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"appRoutes",
+			"supplier",
+			"proveedor",
+			"Proveedor",
 			"TNFS",
 			"TNGA",
 			"TNDB",
@@ -558,7 +586,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -594,7 +622,7 @@
 	"project": "basicerp.sublime-project",
 	"replace":
 	{
-		"height": 66.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":

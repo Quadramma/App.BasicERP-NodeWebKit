@@ -1,0 +1,17 @@
+{
+    "name": "BasicERP",
+    "description": "Management App",
+    "version": "0.1",
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "sandbox": {
+        "pages": ["index.html"]
+    },
+    "icons": {
+        "16": "img/calculator-16.png",
+        "128": "img/calculator-128.png"
+    }
+}

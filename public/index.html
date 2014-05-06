@@ -2,68 +2,91 @@
 <!doctype html>
 
 <!-- ASSIGN OUR ANGULAR MODULE -->
-<html ng-app="scotchTodo">
+<html ng-app="app" ng-controller="AppController">
 <head>
 	<!-- META -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
 
-	<title>Node/Angular Todo App</title>
+	<title>BasicERP</title>
 
 	<!-- SCROLLS -->
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
+	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css"><!-- load bootstrap -->
 	<style>
 		html 					{ overflow-y:scroll; }
 		body 					{ padding-top:50px; }
-		#todo-list 				{ margin-bottom:30px; }
 	</style>
 
 	<!-- SPELLS -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><!-- load jquery -->
-	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script><!-- load angular -->
-	<script src="core.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="libs/angular/angular.js"></script>
+	<!-- <script src="libs/angular-route/angular-route.js"></script> -->
+	<script src="libs/angular-ui-router/release/angular-ui-router.js"></script>
+
+	<script src="libs/smokesignals.js"></script>
+	<script src="libs/store.js"></script>
+
+	<script src="js/controllers/appController.js"></script>
+
+	<script src="js/services/loginService.js"></script>
+	<script src="js/services/workItemService.js"></script>
+
+	<script src="js/models/appsingleton.js"></script>
+	<script src="js/config/appRoutes.js"></script>
+	<script src="js/config/app.js"></script>
+
+	<script src="js/controllers/mainController.js"></script>
+	<script src="js/controllers/homeController.js"></script>
+	
+	<script src="js/services/supplierService.js"></script>
+	<script src="js/controllers/supplierController.js"></script>
+
+	<script src="js/services/clientService.js"></script>
+	<script src="js/controllers/clientController.js"></script>
+	<script src="js/controllers/client/clientCRUDController.js"></script>
+	
+
+	<script src="js/controllers/loginController.js"></script>
+	<script src="js/controllers/workItemsController.js"></script>
 
 </head>
-<!-- SET THE CONTROLLER AND GET ALL TODOS -->
-<body ng-controller="mainController">
-	<div class="container">
+<body>
+<!-- HEADER AND NAVBAR -->
 
-		<!-- HEADER AND TODO COUNT -->
-		<div class="jumbotron text-center">
-			<h1>I'm a Todo-aholic <span class="label label-info">{{ todos.length }}</span></h1>
+<header class="navbar navbar-default navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse"
+       data-target="#navCollapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">BasicERP</a>
+    </div>
+    <nav id="navCollapse" class="collapse navbar-collapse" role="navigation">
+      	<ul class="nav navbar-nav">
+			<li><a ui-sref="home"><i class="fa fa-home"></i> Inicio</a></li>
+			<li><a ui-sref="client.list"><i class="fa fa-shield"></i> Clientes</a></li>
+			<li><a ui-sref="supplier.list"><i class="fa fa-comment"></i> Proveedores</a></li>
+		<!--	<li><a href="#workitems"><i class="fa fa-comment"></i> OTs</a></li> -->
+		</ul>
+    </nav>
+  </div>
+</header>
+
+
+		
+
+
+		<div id="main">
+ 			<div ui-view></div>
 		</div>
-
-		<!-- TODO LIST -->
-		<div id="todo-list" class="row">
-			<div class="col-sm-4 col-sm-offset-4">
-
-				<!-- LOOP OVER THE TODOS IN $scope.todos -->
-				<div class="checkbox" ng-repeat="todo in todos">
-					<label>
-						<input type="checkbox" ng-click="deleteTodo(todo._id)"> {{ todo.text }}
-					</label>
-				</div>
-
-			</div>
-		</div>
-
-		<!-- FORM TO CREATE TODOS -->
-		<div id="todo-form" class="row">
-			<div class="col-sm-8 col-sm-offset-2 text-center">
-				<form>
-					<div class="form-group">
-
-						<!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
-						<input type="text" class="form-control input-lg text-center" placeholder="I want to buy a puppy that will love me forever" ng-model="formData.text">
-					</div>
-
-					<!-- createToDo() WILL CREATE NEW TODOS -->
-					<button type="submit" class="btn btn-primary btn-lg" ng-click="createTodo()">Add</button>
-				</form>
-			</div>
-		</div>
-
-	</div>
-
+		<!-- FOOTER -->
+		<footer class="text-center">
+			BasicERP - 2014
+		</footer>
 </body>
 </html>
